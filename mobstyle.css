@@ -1,0 +1,56 @@
+/* Navigation */
+
+nav{
+    display: grid;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Bannière */
+
+#banniere_image
+{
+    display: none;
+}
+
+/* Corps */
+
+section
+{
+    display: grid;
+}
+
+aside
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+h1{
+    grid-column: 1 /span 3;
+}
+
+p{
+    grid-column: 1 /span 4;
+}
+
+aside p:last-child{
+    display: flex;
+    grid-column: 1 /span 5;
+    justify-content: center;
+}
+
+#fleche_bulle
+{
+    display: none;
+}
+
+#photo_zozor
+{
+    grid-column: 5;
+}
